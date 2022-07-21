@@ -1,0 +1,32 @@
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 73px;
+    text-transform: uppercase;
+    &_consultation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 36px;
+        line-height: 54px; 
+        color: #FFFFFF;
+    }
+    &_catalog {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+    }
+    &_review {
+        font-weight: 700;
+    }
+}
+   
